@@ -1,0 +1,12 @@
+﻿@model WebApplication1.Models.ClientePremiumViewModel
+
+<h1>Cliente Premium</h1>
+
+<ul>
+    <li><strong>Nome:</strong> @Model.NomeCompleto</li>
+    <li><strong>Data de Nascimento:</strong> @Model.DataNascimento.ToShortDateString()</li>
+    <li><strong>CPF:</strong> @Model.Cpf</li>
+    <li><strong>Telefone:</strong> @Model.TelefoneCelular</li>
+    <li><strong>LinkedIn:</strong> @Model.UrlPerfilLinkedIn</li>
+    <li><strong>Renda Mensal:</strong> R$ @Model.RendaMensal</li>
+</ul>
